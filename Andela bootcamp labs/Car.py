@@ -1,8 +1,8 @@
 class Car(object):
 
 
-    def __init__(self,name='General', model='GM' ,type='honda' ):
-        self.type = type
+    def __init__(self,name='General', model='GM' ,type_of_car='saloon' ):
+        self.type_of_car = type_of_car
         self.model = model
         self.name = name
         self.speed = 0
@@ -12,31 +12,21 @@ class Car(object):
         else:
             self.num_of_doors = 4
 
-        if type == 'trailer':
+        if type_of_car == 'trailer':
             self.num_of_wheels = 8
         else:
             self.num_of_wheels = 4
 
-    def doors(self, num_of_doors):
-        pass
-
-    def drive(self, moving_man):
-        return moving_man
-
     def drive(self, spd):
-        if self.type == 'trailer':
+        if self.type_of_car == 'trailer':
             self.speed = spd * 11
         else:
             self.speed = 10 ** spd
 
         return self
-
-    def wheels(self, num_of_wheels):
-        return num_of_wheels
-
-
+        
     def is_saloon(self):
-        if self.type ==  'trailer':
-            return False
+        if self.type_of_car =='saloon':
+            return 'True'
         else:
-            return True
+            return 'False'

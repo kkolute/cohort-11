@@ -6,6 +6,8 @@ def data_type(data):
     elif type(data) == int:
         if data < 100 :
             return 'less than 100'
+        elif data == 100 :
+            return 'equal to 100'
         else :
             return 'more than 100'
 
@@ -14,6 +16,6 @@ def data_type(data):
 
     elif type(data) == list:
         if len (data) >=3 :
-            return len (data)
+            return data[len (data) -1]
         else:
             return None
