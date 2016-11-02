@@ -1,3 +1,7 @@
+'''
+author : Kennedy kolute
+class  : Andela bootcamp 11
+'''
 def words(sentence):
 # initialize an empty dictionary
     d = {}
