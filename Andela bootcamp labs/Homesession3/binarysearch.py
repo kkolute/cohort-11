@@ -1,3 +1,7 @@
+'''
+author : Kennedy kolute
+class  : Andela bootcamp 11
+'''
 class BinarySearch(list):
     # constructor that creates list of elements
     def __init__(self, a, b, *args):

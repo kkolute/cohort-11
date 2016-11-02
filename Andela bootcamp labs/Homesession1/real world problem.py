@@ -1,3 +1,7 @@
+'''
+author : Kennedy kolute
+class  : Andela bootcamp 11
+'''
 class BankAccount(object):
     def withdraw(self, amount):
         pass

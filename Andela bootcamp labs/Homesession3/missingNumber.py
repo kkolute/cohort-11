@@ -1,3 +1,8 @@
+'''
+author : Kennedy kolute
+class  : Andela bootcamp 11
+'''
+
 def find_missing(list1,list2):
 # initialize missing to zero
 	missing = 0

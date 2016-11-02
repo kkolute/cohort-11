@@ -1,3 +1,7 @@
+'''
+author : Kennedy kolute
+class  : Andela bootcamp 11
+'''
 def data_type(data):
     if data == None:
         return 'no value'
